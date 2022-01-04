@@ -21,12 +21,12 @@ nav {
   height: 120px;
 }
 
-header li {
+li {
   font-size: 1.2em;
   float: right;
   display: block;
   text-align: center;
-  padding: 1px 70px;
+  padding: 0px 70px;
   text-decoration: none;
   color: beige;
 }
@@ -36,6 +36,8 @@ header li {
   color: white;
   padding: 5px;
   margin-left: 90px;
+  padding: 0;
+  width: 0;
 }
 
 h1 {
@@ -50,4 +52,39 @@ p {
   color: antiquewhite;
   margin-left: 150px;
   margin-top: 10px;
+}
+
+main {
+  height: 0;
+  margin-left: 150px;
+}
+
+h4 {
+  font-size: 1.2em;
+  color: antiquewhite;
+}
+
+.conctate {
+  padding: 0;
+  margin: 0;
+}
+
+#mail {
+  background-color: #621818;
+  border: none;
+  padding: 15px 90px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.5em;
+  color: aliceblue;
+}
+
+#Button {
+  border: none;
+  padding: 15px 80px;
+  margin: 45px;
+  font-size: 1.5em;
+  border-radius: 15px;
+  background-color: #0c5e66;
+  color: aliceblue;
 }
