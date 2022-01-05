@@ -19,6 +19,7 @@ nav {
   padding: 0;
   margin: 0px;
   height: 60px;
+  cursor: pointer;
 }
 
 li {
